@@ -22,5 +22,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // TODO: Add all the networking code here!
+      
+      //Watched: Creating a Request https://www.youtube.com/watch?v=GP62hNZzAJ4
+      //Read: https://developer.apple.com/reference/foundation/url
+      let imageURl = URL(string: "https://upload.wikimedia.org/wikipedia/commons/2/25/Majestic_Liberty.jpg")!
+      
+      
     }
 }
